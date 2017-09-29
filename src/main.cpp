@@ -32,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x00000c9230b178bb77d6d35c9ade63c736108f9a090ca4e5b3cba0920b35b255");//bbc
+uint256 hashGenesisBlock("0x00000c9230b178bb77d6d35c9ade63c736108f9a090ca4e5b3cba0920b35b");//bbc
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // bigboobscoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
